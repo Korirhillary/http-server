@@ -6,7 +6,7 @@
   The goal is to demonstrate an understanding of the HTTP protocol, request structure, and  response synthesis — without relying on any HTTP libraries or frameworks.
   All parsing logic, header handling, body extraction, and response construction are implemented manually.
 
-### Features
+## Features
 
 * Manual parsing of HTTP request line, headers, and body
 * Accurate handling of Content-Length
@@ -14,7 +14,7 @@
 * Low-level TCP server using Python’s socket module
 * Clear separation between parsing, server logic, and request handling
 
-### Parsed Request Fields
+## Parsed Request Fields
 Each incoming request is parsed into a structured HTTPRequest object exposing:
 * HTTP method
 * Request path
@@ -26,7 +26,7 @@ Each incoming request is parsed into a structured HTTPRequest object exposing:
 * Complete request body (bytes)
 * All headers as a dictionary
 
-### Response Generation
+## Response Generation
 Responses are constructed using a dedicated HTTPResponse builder that guarantees:
 * Correct HTTP status line formatting
 * Proper CRLF (\r\n) line endings
@@ -34,7 +34,7 @@ Responses are constructed using a dedicated HTTPResponse builder that guarantees
 * Clean separation of headers and body
 The response builder allows method chaining for clarity and ease of use.
 
-### TCP Server Implementation
+## TCP Server Implementation
 A simple TCP-based HTTP server is implemented using Python’s socket module:
 * Listens for incoming connections
 * Reads raw request bytes from the socket
