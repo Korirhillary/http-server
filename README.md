@@ -1,5 +1,5 @@
 
-### HTTP Server & Request Parser ###
+### HTTP Server - Request & Response Parser ###
 
 # overview 
   This project implements a minimal HTTP/1.x server and request parser from scratch using Python and low-level TCP sockets.
@@ -68,7 +68,9 @@ python3 http_parser.py
 ```
 The server listens on:
 
+```bash
 localhost:8080
+```
 
 ### Example Requests
 
@@ -135,5 +137,5 @@ The code is intentionally simple, readable, and well-documented to make the unde
 
 ## Author
 
-*Korir Hillary*
+*Korir Hillary* -
 Software Developer
