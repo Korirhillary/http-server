@@ -1,5 +1,5 @@
 
-### HTTP Server - Request & Response Parser ###
+### HTTP Server - Request Parser & Response builder ###
 
 # overview 
   This project implements a minimal HTTP/1.x server and request parser from scratch using Python and low-level TCP sockets.
