@@ -63,9 +63,9 @@ No high-level networking or HTTP abstractions are used.
 
 ### Running the Server
 
-bash
-python http_parser.py
-
+```bash
+python3 http_parser.py
+```
 The server listens on:
 
 localhost:8080
@@ -74,15 +74,15 @@ localhost:8080
 
 *GET request*
 
-bash
+```bash
 curl http://localhost:8080/
-
+```
 
 *POST request*
 
-bash
+```bash
 curl -X POST http://localhost:8080/echo -d "Hello World"
-
+```
 ## Example Handler
 
 python
@@ -136,4 +136,4 @@ The code is intentionally simple, readable, and well-documented to make the unde
 ## Author
 
 *Korir Hillary*
-Software Engineer / Full‑Stack Developer
+Software Developer
